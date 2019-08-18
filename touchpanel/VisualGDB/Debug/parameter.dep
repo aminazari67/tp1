@@ -1,0 +1,6 @@
+VisualGDB/Debug/parameter.o: Src/Me/parameter.cpp Src/Me/parameter.h \
+ Src/Me/at45db16.h
+
+Src/Me/parameter.h:
+
+Src/Me/at45db16.h:

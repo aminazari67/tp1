@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|VisualGDB">
+      <Configuration>Debug</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|VisualGDB">
+      <Configuration>Release</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>14.0</VCProjectVersion>
+    <ProjectGuid>{0D031B43-E11F-4EAC-9BD9-EC7234B29FFB}</ProjectGuid>
+    <BSP_ID>com.sysprogs.arm.stm32</BSP_ID>
+    <BSP_VERSION>2019.06</BSP_VERSION>
+    <InPlaceBSPSubdir />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)stm32.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)stm32.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <GNUConfigurationType>Debug</GNUConfigurationType>
+    <ToolchainID>com.visualgdb.arm-eabi</ToolchainID>
+    <ToolchainVersion>7.2.0/8.0.1/r3</ToolchainVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ToolchainID>com.visualgdb.arm-eabi</ToolchainID>
+    <ToolchainVersion>7.2.0/8.0.1/r3</ToolchainVersion>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Inc;Drivers\CMSIS\Device\ST\STM32F1xx\Include;Drivers\STM32F1xx_HAL_Driver\Inc;Drivers\STM32F1xx_HAL_Driver\Src;Drivers\STM32F1xx_HAL_Driver\Inc\Legacy;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG=1;RELEASE=1;flash_layout;STM32F103xE;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <LibrarySearchDirectories>%(Link.LibrarySearchDirectories)</LibrarySearchDirectories>
+      <AdditionalLibraryNames>%(Link.AdditionalLibraryNames)</AdditionalLibraryNames>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Drivers/CMSIS/Include;Src;Drivers/CMSIS/RTOS/Template;Inc;Drivers\CMSIS\Device\ST\STM32F1xx\Include;Drivers\STM32F1xx_HAL_Driver\Inc;Drivers\STM32F1xx_HAL_Driver\Src;Drivers\STM32F1xx_HAL_Driver\Inc\Legacy;Src/gui;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEBUG=1;flash_layout;STM32F103xE;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <LibrarySearchDirectories>%(Link.LibrarySearchDirectories)</LibrarySearchDirectories>
+      <AdditionalLibraryNames>%(Link.AdditionalLibraryNames)</AdditionalLibraryNames>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+      <LinkerScript />
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\ft5x06\ft5x16.cpp" />
+    <ClCompile Include="Src\gpio.c" />
+    <ClCompile Include="Src\adc.c" />
+    <ClCompile Include="Src\crc.c" />
+    <ClCompile Include="Src\dac.c" />
+    <ClCompile Include="Src\dma.c" />
+    <ClCompile Include="Src\fsmc.c" />
+    <ClCompile Include="Src\gui\pic\cur.c" />
+    <ClCompile Include="Src\gui\pic\Latin48.c" />
+    <ClCompile Include="Src\gui\pic\Modern No.c" />
+    <ClCompile Include="Src\gui\pic\Modern No2.c" />
+    <ClCompile Include="Src\gui\pic\play.c" />
+    <ClCompile Include="Src\gui\pic\stopwatch.c" />
+    <ClCompile Include="Src\i2c.c" />
+    <ClCompile Include="Src\Me\analogio.cpp" />
+    <ClCompile Include="Src\Me\at45db16.c" />
+    <ClCompile Include="Src\Me\icon.cpp" />
+    <ClCompile Include="Src\Me\iconboady.cpp" />
+    <ClCompile Include="Src\Me\iconinit.cpp" />
+    <ClCompile Include="Src\Me\maintask.cpp" />
+    <ClCompile Include="Src\Me\mcp492x.cpp" />
+    <ClCompile Include="Src\Me\mytimer.c" />
+    <ClCompile Include="Src\Me\paramboady.cpp" />
+    <ClCompile Include="Src\Me\parameter.cpp" />
+    <ClCompile Include="Src\Me\paraminit.cpp" />
+    <ClCompile Include="Src\rtc.c" />
+    <ClCompile Include="Src\spi.c" />
+    <ClCompile Include="Src\tim.c" />
+    <ClCompile Include="Src\usart.c" />
+    <ClCompile Include="Src\stm32f1xx_it.c" />
+    <ClCompile Include="Src\stm32f1xx_hal_msp.c" />
+    <ClCompile Include="Src\main.c" />
+    <ClCompile Include="Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\system_stm32f1xx.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rtc.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rtc_ex.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_fsmc.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dac.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dac_ex.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sram.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi_ex.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_crc.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c" />
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c" />
+    <None Include="stm32.props" />
+    <ClCompile Include="$(BSP_ROOT)\STM32F1xxxx\StartupFiles\startup_stm32f103xe.c" />
+    <None Include="touchpanel-Debug.vgdbsettings" />
+    <None Include="touchpanel-Release.vgdbsettings" />
+    <None Include="stm32.xml" />
+    <ClCompile Include="Src\gui\GUIConf.c" />
+    <ClCompile Include="Src\gui\GUIDRV_Template.c" />
+    <ClCompile Include="Src\gui\GUI_X.c" />
+    <ClCompile Include="Src\gui\hz16.c" />
+    <ClCompile Include="Src\gui\LCDConf_FlexColor_Template.c" />
+    <ClCompile Include="Src\gui\LCD_Driver.c" />
+    <ClCompile Include="Src\gui\SIMConf.c" />
+    <ClCompile Include="Src\gui\pic\add.c" />
+    <ClCompile Include="Src\gui\pic\back.c" />
+    <ClCompile Include="Src\gui\pic\logo.c" />
+    <ClCompile Include="Src\gui\pic\minus.c" />
+    <ClCompile Include="Src\gui\pic\motor.c" />
+    <ClCompile Include="Src\gui\pic\operations.c" />
+    <ClCompile Include="Src\gui\pic\save.c" />
+    <ClCompile Include="Src\gui\pic\settings.c" />
+    <ClCompile Include="Src\gui\pic\start.c" />
+    <ClCompile Include="Src\gui\pic\stop.c" />
+    <ClCompile Include="Src\gui\pic\volt.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Src\gui\STemWin532_CM3_IAR.a" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\gui\PROGBAR.h" />
+    <ClInclude Include="Src\gui\PROGBAR_Private.h" />
+    <ClInclude Include="Src\Me\at45db16.h" />
+  </ItemGroup>
+</Project>

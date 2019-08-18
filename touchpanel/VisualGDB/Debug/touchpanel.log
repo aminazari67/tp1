@@ -1,0 +1,11 @@
+﻿Build started 8/18/2019 4:16:26 PM.
+     1>Project "D:\AMIN\projects\touchpanel\cod\TP\touchpanel\touchpanel.vcxproj" on node 2 (Build target(s)).
+     1>OutputMemoryUtilization:
+         ------------------- Memory utilization report -------------------
+         Used FLASH: 338KB out of 512KB (66%)
+         Used SRAM: 24KB out of 64KB (37%)
+     1>Done Building Project "D:\AMIN\projects\touchpanel\cod\TP\touchpanel\touchpanel.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.23

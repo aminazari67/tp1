@@ -1,0 +1,35 @@
+VisualGDB/Debug/GUIDRV_Template.o: Src/gui/GUIDRV_Template.c \
+ c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stddef.h \
+ Src/gui/LCD_Private.h Src/gui/LCD_Protected.h Src/gui/LCD.h \
+ Src/gui/GUI_ConfDefaults.h Src/gui/GUIConf.h Src/gui/Global.h \
+ Src/gui/GUI.h Src/gui/GUI_Type.h Src/gui/GUI_Version.h \
+ Src/gui/GUI_Private.h Src/gui/GUI_Debug.h Src/gui/WM_GUI.h \
+ Src/gui/LCD_ConfDefaults.h
+
+c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stddef.h:
+
+Src/gui/LCD_Private.h:
+
+Src/gui/LCD_Protected.h:
+
+Src/gui/LCD.h:
+
+Src/gui/GUI_ConfDefaults.h:
+
+Src/gui/GUIConf.h:
+
+Src/gui/Global.h:
+
+Src/gui/GUI.h:
+
+Src/gui/GUI_Type.h:
+
+Src/gui/GUI_Version.h:
+
+Src/gui/GUI_Private.h:
+
+Src/gui/GUI_Debug.h:
+
+Src/gui/WM_GUI.h:
+
+Src/gui/LCD_ConfDefaults.h:

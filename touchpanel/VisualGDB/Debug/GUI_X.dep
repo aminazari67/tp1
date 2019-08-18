@@ -1,0 +1,17 @@
+VisualGDB/Debug/GUI_X.o: Src/gui/GUI_X.c Src/gui/GUI.h \
+ Src/gui/GUI_ConfDefaults.h Src/gui/GUIConf.h Src/gui/GUI_Type.h \
+ Src/gui/LCD.h Src/gui/Global.h Src/gui/GUI_Version.h
+
+Src/gui/GUI.h:
+
+Src/gui/GUI_ConfDefaults.h:
+
+Src/gui/GUIConf.h:
+
+Src/gui/GUI_Type.h:
+
+Src/gui/LCD.h:
+
+Src/gui/Global.h:
+
+Src/gui/GUI_Version.h:

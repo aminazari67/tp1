@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{104624eb-4528-42b4-a60b-b78eedc6f76b}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{af5134eb-632d-470c-ba38-c6a73f4b8a6c}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\Startup">
+      <UniqueIdentifier>{a825ee98-398c-4078-b0e9-1142cd1c580a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL">
+      <UniqueIdentifier>{6e92042d-d432-4ba7-84dc-c4f9109274f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\COMMON">
+      <UniqueIdentifier>{6f755d34-5c59-43ab-9d9a-5fd516890de5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\ADC">
+      <UniqueIdentifier>{d8fd7ae9-bb31-46b6-99f7-8dc02800bbf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\RTC">
+      <UniqueIdentifier>{24b501dc-f312-4c25-9044-12b0ac7db201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\FSMC">
+      <UniqueIdentifier>{d082f27d-554d-4938-8d1b-d9e5e8f1358b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\DAC">
+      <UniqueIdentifier>{ef808a74-c818-4589-9e89-a8c349545cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\UART">
+      <UniqueIdentifier>{3a9fc85f-dcef-4365-b28f-2985d8d49b14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\PWR">
+      <UniqueIdentifier>{00958cd4-97ec-410f-acc4-63edaf58b33d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\SRAM">
+      <UniqueIdentifier>{e02b29ce-4723-4c40-b27f-318b2e68df42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\NAND">
+      <UniqueIdentifier>{9be7eaca-8886-4e32-a287-e2b4ebb5db01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\SPI">
+      <UniqueIdentifier>{370b9f68-9b1b-4891-92ec-8251ec21fa0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\FLASH">
+      <UniqueIdentifier>{46a67425-070d-4db9-8d18-912835c01b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\GPIO">
+      <UniqueIdentifier>{7db9d2c0-2d1c-4efb-8e66-e8236cb16006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\NOR">
+      <UniqueIdentifier>{4b485ece-65a6-4e50-93d2-5d21e447eaf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\PCCARD">
+      <UniqueIdentifier>{7595c633-7a47-4581-b4b4-e4f144dc0e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\RCC">
+      <UniqueIdentifier>{f88f819d-c9fe-428b-9b66-2e466c3c1234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\CRC">
+      <UniqueIdentifier>{7e68989b-2bb1-4c82-b1f5-0347cc34c8ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\CORTEX">
+      <UniqueIdentifier>{9cbddded-f4c4-40a3-acde-1f81eb057e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\TIM">
+      <UniqueIdentifier>{0b6f29f1-5a73-462e-adfd-c7d972a0138d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\DMA">
+      <UniqueIdentifier>{b03df029-6ce2-49a0-af29-c990a67f71ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\I2C">
+      <UniqueIdentifier>{2fd443f4-75cb-4865-a618-a8cab752ebec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{11f71e21-1d09-4cdc-bf23-4ed68c65048a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{ceaf8227-afd2-4342-8f6b-7085b122d008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\gui">
+      <UniqueIdentifier>{079d5d4a-c6a1-4c1e-a6e8-cff3eaea673b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\gui\pic">
+      <UniqueIdentifier>{b523f2d7-f190-4fae-896f-e558f46d9507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Me">
+      <UniqueIdentifier>{ca09b1c2-183d-4495-b818-7a567cff459a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\ft5x06">
+      <UniqueIdentifier>{f49dfd4d-7ef3-4bad-9784-22466e8a87c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\at45db">
+      <UniqueIdentifier>{f5551aa4-879d-45eb-854f-0931eb61a218}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\gpio.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\adc.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\crc.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\dac.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\dma.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\fsmc.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\i2c.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\rtc.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\spi.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\tim.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\usart.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\stm32f1xx_it.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\stm32f1xx_hal_msp.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\main.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\system_stm32f1xx.c">
+      <Filter>Source files\Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c">
+      <Filter>Source files\STM32Cube HAL\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c">
+      <Filter>Source files\STM32Cube HAL\ADC</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c">
+      <Filter>Source files\STM32Cube HAL\ADC</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rtc.c">
+      <Filter>Source files\STM32Cube HAL\RTC</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rtc_ex.c">
+      <Filter>Source files\STM32Cube HAL\RTC</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_fsmc.c">
+      <Filter>Source files\STM32Cube HAL\FSMC</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dac.c">
+      <Filter>Source files\STM32Cube HAL\DAC</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dac_ex.c">
+      <Filter>Source files\STM32Cube HAL\DAC</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c">
+      <Filter>Source files\STM32Cube HAL\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c">
+      <Filter>Source files\STM32Cube HAL\PWR</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sram.c">
+      <Filter>Source files\STM32Cube HAL\SRAM</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c">
+      <Filter>Source files\STM32Cube HAL\SPI</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi_ex.c">
+      <Filter>Source files\STM32Cube HAL\SPI</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c">
+      <Filter>Source files\STM32Cube HAL\FLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c">
+      <Filter>Source files\STM32Cube HAL\FLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c">
+      <Filter>Source files\STM32Cube HAL\GPIO</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c">
+      <Filter>Source files\STM32Cube HAL\RCC</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c">
+      <Filter>Source files\STM32Cube HAL\RCC</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_crc.c">
+      <Filter>Source files\STM32Cube HAL\CRC</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c">
+      <Filter>Source files\STM32Cube HAL\CORTEX</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c">
+      <Filter>Source files\STM32Cube HAL\TIM</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c">
+      <Filter>Source files\STM32Cube HAL\TIM</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c">
+      <Filter>Source files\STM32Cube HAL\DMA</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c">
+      <Filter>Source files\STM32Cube HAL\I2C</Filter>
+    </ClCompile>
+    <None Include="stm32.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <ClCompile Include="$(BSP_ROOT)\STM32F1xxxx\StartupFiles\startup_stm32f103xe.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <None Include="touchpanel-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="touchpanel-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="stm32.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <ClCompile Include="Src\gui\GUIConf.c">
+      <Filter>Source files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\GUIDRV_Template.c">
+      <Filter>Source files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\GUI_X.c">
+      <Filter>Source files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\hz16.c">
+      <Filter>Source files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\LCDConf_FlexColor_Template.c">
+      <Filter>Source files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\LCD_Driver.c">
+      <Filter>Source files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\SIMConf.c">
+      <Filter>Source files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\pic\add.c">
+      <Filter>Source files\gui\pic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\pic\back.c">
+      <Filter>Source files\gui\pic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\pic\logo.c">
+      <Filter>Source files\gui\pic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\pic\minus.c">
+      <Filter>Source files\gui\pic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\pic\motor.c">
+      <Filter>Source files\gui\pic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\pic\operations.c">
+      <Filter>Source files\gui\pic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\pic\save.c">
+      <Filter>Source files\gui\pic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\pic\settings.c">
+      <Filter>Source files\gui\pic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\pic\start.c">
+      <Filter>Source files\gui\pic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\pic\stop.c">
+      <Filter>Source files\gui\pic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\pic\volt.c">
+      <Filter>Source files\gui\pic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Me\analogio.cpp">
+      <Filter>Source files\Me</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Me\icon.cpp">
+      <Filter>Source files\Me</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Me\iconboady.cpp">
+      <Filter>Source files\Me</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Me\iconinit.cpp">
+      <Filter>Source files\Me</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Me\maintask.cpp">
+      <Filter>Source files\Me</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Me\mcp492x.cpp">
+      <Filter>Source files\Me</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Me\paramboady.cpp">
+      <Filter>Source files\Me</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Me\parameter.cpp">
+      <Filter>Source files\Me</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Me\paraminit.cpp">
+      <Filter>Source files\Me</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ft5x06\ft5x16.cpp">
+      <Filter>Source files\ft5x06</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Me\mytimer.c">
+      <Filter>Source files\Me</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\pic\Latin48.c">
+      <Filter>Source files\gui\pic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\pic\stopwatch.c">
+      <Filter>Source files\gui\pic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\pic\cur.c">
+      <Filter>Source files\gui\pic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\pic\Modern No.c">
+      <Filter>Source files\gui\pic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\pic\Modern No2.c">
+      <Filter>Source files\gui\pic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Me\at45db16.c">
+      <Filter>Source files\at45db</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gui\pic\play.c">
+      <Filter>Source files\gui\pic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Src\gui\STemWin532_CM3_IAR.a">
+      <Filter>Resource files</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\gui\PROGBAR.h">
+      <Filter>Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\gui\PROGBAR_Private.h">
+      <Filter>Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Me\at45db16.h">
+      <Filter>Source files\at45db</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
